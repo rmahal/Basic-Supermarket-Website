@@ -11,6 +11,13 @@ function showContent(event){
    var candies = [{name: "" , image: ""},{name: "" , image: ""},{name: "" , image: ""},{name: "" , image: ""},{name: "" , image: ""}];
 
 
+
+    var card = `<a class="card"><div><img src="${}"><div class="container"><p>${}</p></div></div></a>`
+
+
+
+
+
     createCard("hi","hello");
 }
 
