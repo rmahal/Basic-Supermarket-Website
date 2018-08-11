@@ -30,6 +30,8 @@ nav{
 #shoppingContent{
     display: flex;
     color: black;
+    flex-wrap: wrap;
+
 }
 nav+div{
     background-color: white;
@@ -40,6 +42,7 @@ nav+div{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
+    text-align: center;
 }
 
 .card:hover {
@@ -48,4 +51,24 @@ nav+div{
 
 .container {
     padding: 2px 16px;
+    width: 45%;
+    text-align: center;
+}
+
+a > div{
+    padding-left: 10px;
+}
+
+
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.foodItem{
+    color: black;
+}
+
+.cartList{
+    
 }
