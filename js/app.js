@@ -13,6 +13,7 @@ function showContent(event){
 
 
     var card ;
+    var deleteButton;
     var item ;
 
     
@@ -65,13 +66,16 @@ function showContent(event){
                 item.innerHTML = candies[i].name;
                 document.getElementById("cartList").appendChild(item);
             });
-            
+
             
             
             document.getElementById("shoppingContent").appendChild(card);
         }
     }
 }
+
+
+
 
 
 
